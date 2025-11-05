@@ -16,18 +16,77 @@
         }
 
         .customSize {
-            width: 400px;
+            width: 800;
         }
     </style>
 </head>
 
 <body>
     <div class="container">
-    <header class="border border-white" >
-   <h1 class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">Hello Bootstrap</h1>
-   <p class="display-2">Lorem ipsum dolor sit amet.</p>
-    </header>  
+        <header class="border border-white">
+            <h1 class="shadow-lg p-3 mb-5 bg-body-tertiary rounded">Hello Bootstrap</h1>
+            <p class="display-2">Lorem ipsum dolor sit amet.</p>
+        </header>
     </div>
+    <div class="customSize">
+        <img src="images/smallCat.jpg" class="figure-img img-fluid rounded" alt="...">
+        <figcaption class="figure-caption">A cat with blue eyes.</figcaption>
+     </div>   
+      <div class="table-responsive">
+        <table class="table table-success table-striped">
+          <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First</th>
+                    <th scope="col">Last</th>
+                    <th scope="col">Handle</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Mark</td>
+                    <td>Otto</td>
+                    <td>@mdo</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Jacob</td>
+                    <td>Thornton</td>
+                    <td>@fat</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>@social</td>
+                </tr>
+            </tbody>
+        </table>
+      </div>
+
+
+<div class="container mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="container mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
+
+
+
+<div class="card" style="width: 20rem;">
+  <img src="images/smallCat.jpg" class="card-img-top" alt="A Picture of a Cat">
+  <div class="card-body">
+    <h5 class="card-title">Cute Cat</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+
+
 
 </body>
 
